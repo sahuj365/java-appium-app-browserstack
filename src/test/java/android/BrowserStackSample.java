@@ -20,12 +20,12 @@ public class BrowserStackSample {
     HashMap<String, Object> browserstackOptions = new HashMap<String, Object>();
 
     // Set your access credentials
-    browserstackOptions.put("userName", "YOUR_USERNAME");
-    browserstackOptions.put("accessKey", "YOUR_ACCESS_KEY");
+    browserstackOptions.put("userName", "golechha.rushabh@gmail.com");
+    browserstackOptions.put("accessKey", "Symbo@2468");
 
     // Set other BrowserStack capabilities
     browserstackOptions.put("appiumVersion", "1.22.0");
-    browserstackOptions.put("projectName", "First Java Project");
+    browserstackOptions.put("projectName", "Sostengo");
     browserstackOptions.put("buildName", "browserstack-build-1");
     browserstackOptions.put("sessionName", "first_test");
 
@@ -33,7 +33,7 @@ public class BrowserStackSample {
     caps.setCapability("bstack:options", browserstackOptions);
 
     // Set URL of the application under test
-    caps.setCapability("app", "bs://<app-id>");
+    caps.setCapability("app", "bs://92ca566b0d9927a77a80a907d0808e8e581bc156");
 
     // Specify deviceName and platformName for testing
     caps.setCapability("deviceName", "Google Pixel 3");
